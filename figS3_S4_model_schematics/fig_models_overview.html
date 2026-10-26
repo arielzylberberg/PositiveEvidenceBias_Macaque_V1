@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  :root{
+    --teal-b:#1f6f8b; --teal-bg:#eef5f7;
+    --purple-b:#6a4c93; --purple-bg:#f5f0fa;
+    --orange-b:#c1531b; --orange-bg:#fdf1e8;
+    --ink:#1a2733; --sub:#5b6b76;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; padding:56px 64px 40px 64px; width:1904px;
+    font-family: "Helvetica Neue", Arial, sans-serif; color:var(--ink);
+    background:#fff;
+  }
+  h1{font-size:40px; margin:0 0 6px 0; font-weight:800;}
+  .subtitle{font-size:18px; color:var(--sub); margin:0 0 30px 0;}
+  h2{font-size:24px; margin:0 0 16px 0; font-weight:800;}
+  .row{display:flex; gap:22px; margin-bottom:14px;}
+  .box{border:2px solid var(--teal-b); background:var(--teal-bg); border-radius:10px; padding:16px 20px; flex:1;}
+  .box h3{margin:0 0 8px 0; font-size:18px; color:var(--teal-b); font-weight:700;}
+  .box p{margin:4px 0; font-size:15px; line-height:1.45;}
+  .arrow{align-self:center; font-size:30px; color:#7a8890;}
+  .note{font-size:15px; color:var(--sub); margin:6px 0 26px 0;}
+  .hr{border:none; border-top:1px solid #d8dee2; margin:28px 0;}
+  .cols{display:flex; gap:26px; align-items:flex-start;}
+  .col{flex:1; display:flex; flex-direction:column; gap:14px;}
+  .colhdr{border-radius:10px; padding:14px 18px; font-size:16px;}
+  .colhdr h4{margin:0 0 6px 0; font-size:17px; font-weight:800;}
+  .colhdr p{margin:2px 0; font-size:14px;}
+  .colhdr.teal{border:2px solid var(--teal-b); background:var(--teal-bg); color:var(--teal-b);}
+  .colhdr.purple{border:2px solid var(--purple-b); background:var(--purple-bg); color:var(--purple-b);}
+  .colhdr.orange{border:2px solid var(--orange-b); background:var(--orange-bg); color:var(--orange-b);}
+  .downarrow{text-align:center; font-size:22px; color:#8a97a1; margin:-4px 0;}
+  .mbox{border-radius:10px; padding:14px 18px;}
+  .mbox.teal{border:2px solid var(--teal-b); background:var(--teal-bg);}
+  .mbox.purple{border:2px solid var(--purple-b); background:var(--purple-bg);}
+  .mbox.orange{border:2px solid var(--orange-b); background:var(--orange-bg);}
+  .mbox h4{margin:0 0 8px 0; font-size:17px; font-weight:800;}
+  .mbox.teal h4{color:var(--teal-b);}
+  .mbox.purple h4{color:var(--purple-b);}
+  .mbox.orange h4{color:var(--orange-b);}
+  .mbox p, .mbox div.eq{margin:3px 0; font-size:14.5px; line-height:1.5;}
+  .eq{font-family: "Cambria Math","Times New Roman",serif; font-size:15px;}
+  .small{font-size:13px; color:var(--sub);}
+  .flagbox{border:2px solid var(--orange-b); background:var(--orange-bg); border-radius:10px; padding:16px 18px; margin-top:14px;}
+  .flagbox .headline{color:var(--orange-b); font-weight:800; font-size:15.5px; margin-bottom:8px;}
+  .flagbox .eq{font-size:16px; margin:6px 0;}
+  .flagbox .conclusion{color:var(--orange-b); font-weight:700; font-size:15px; margin-top:10px;}
+  footer{margin-top:34px; padding-top:18px; border-top:1px solid #d8dee2;}
+  footer h5{margin:0 0 8px 0; font-size:16px;}
+  footer p{margin:3px 0; font-size:13.5px; color:var(--sub); line-height:1.5;}
+  .retired{font-size:13.5px; color:var(--orange-b); margin-top:10px; font-style:italic;}
+  .routetag{display:inline-block; font-size:12px; font-weight:700; padding:1px 9px; border-radius:9px; margin-top:6px; background:#fff; border:1px solid currentColor;}
+</style>
+</head>
+<body>
+
+<h2>A&nbsp;&nbsp;Shared accuracy model and latent-evidence reconstruction</h2>
+<div class="row">
+  <div class="box">
+    <h3>Observed behavior</h3>
+    <p><i>s</i> = |orientation|, contrast <i>c</i></p>
+    <p>Choice / correctness; high or low confidence</p>
+  </div>
+  <div class="arrow">&#8594;</div>
+  <div class="box">
+    <h3>Fit accuracy first</h3>
+    <p><i>e = ks + &sigma;<sub>c</sub>&eta;</i>, &nbsp; &eta; ~ &Nscr;(0,1)</p>
+    <p>Correct iff <i>e</i> &gt; 0; fit <i>k</i>, &sigma;<sub>lo</sub>; fix &sigma;<sub>hi</sub> = 1</p>
+  </div>
+  <div class="arrow">&#8594;</div>
+  <div class="box">
+    <h3>Reconstruct latent evidence</h3>
+    <p>Sample |<i>e</i>| conditional on <i>s</i>, <i>c</i>, and outcome.</p>
+    <p>4,000 draws per cell; fixed during confidence fitting.</p>
+  </div>
+</div>
+<div class="note">Below, <i>p</i> is the high-confidence probability for a latent draw. Average over draws to predict the observed report.</div>
+
+<h2>B&nbsp;&nbsp;Confidence readouts, grouped by computation</h2>
+<div class="cols">
+
+  <div class="col">
+    <div class="colhdr teal">
+      <h4>Normalize decision strength</h4>
+      <p>|<i>e</i>| + noise scale &rarr; normalized strength</p>
+      <span class="routetag">&#8596; Route 1, Fig. S4</span>
+    </div>
+    <div class="downarrow">&#8595;</div>
+    <div class="mbox teal">
+      <h4>1&nbsp; Calibrated &middot; 2 parameters</h4>
+      <p class="eq"><i>p</i> = &Phi;(&kappa;|<i>e</i>|/&sigma;<sub>c</sub> + <i>b</i>)</p>
+      <p>Adjust sensitivity and criterion.</p>
+      <p>Free: &kappa;, <i>b</i>.</p>
+    </div>
+    <div class="mbox teal">
+      <h4>2&nbsp; Bayesian(|<i>e</i>|) &middot; 1 parameter</h4>
+      <p class="eq"><i>p</i> = &Phi;(|<i>e</i>|/&sigma;<sub>c</sub> + <i>b</i>)</p>
+      <p>Known contrast-specific noise; shift the confidence criterion.</p>
+      <p>Free: <i>b</i> (&kappa; fixed at 1).</p>
+    </div>
+    <div class="mbox teal">
+      <h4>3&nbsp; ContrastBlind &middot; 2 parameters</h4>
+      <p class="eq"><i>p</i> = &Phi;(&kappa;|<i>e</i>|/&sigma;<sub>pool</sub> + <i>b</i>)</p>
+      <p>One pooled noise scale at both contrasts.</p>
+      <p>Free: &kappa;, <i>b</i>.</p>
+    </div>
+    <div class="mbox teal">
+      <h4>4&nbsp; CASANDRE &middot; 3 parameters</h4>
+      <p class="eq"><i>p</i> = &Phi;(&kappa;|<i>e</i>|/&sigma;&#770; + <i>b</i>)</p>
+      <p class="eq">&sigma;&#770; = &sigma;<sub>c</sub>exp(&tau;<i>z</i>), &nbsp; <i>z</i> ~ &Nscr;(0,1)</p>
+      <p>A noisy estimate of the noise scale.</p>
+      <p>Free: &kappa;, <i>b</i>, &tau;.</p>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="colhdr purple">
+      <h4>Infer a posterior from scalar <i>e</i></h4>
+      <p class="eq"><i>e</i> &rarr; <i>P</i>(<i>h</i>|<i>e</i>), &nbsp; <i>h</i> = (sign, <i>s</i>, <i>c</i>)</p>
+      <span class="routetag">&#8596; Route 2, Fig. S4</span>
+    </div>
+    <div class="downarrow">&#8595;</div>
+    <div class="mbox purple">
+      <h4>5&nbsp; FullBayes(<i>e</i>) &middot; 1 parameter</h4>
+      <p class="eq"><i>q</i> = <i>P</i>(chosen sign | <i>e</i>), &nbsp; <i>p</i> = &Phi;(&Phi;<sup>&minus;1</sup>(<i>q</i>) + <i>b</i>)</p>
+      <p>Sum joint-posterior mass for the chosen sign; marginalize over
+      magnitude and contrast; shift its criterion in probit space.</p>
+      <p>Free: <i>b</i>.</p>
+    </div>
+    <div class="mbox purple">
+      <h4>6&nbsp; Entropy(<i>e</i>) &middot; 2 parameters</h4>
+      <p class="eq"><i>H</i><sup>&minus;</sup> = &sum;<sub><i>h</i></sub> <i>P</i>(<i>h</i>|<i>e</i>) log <i>P</i>(<i>h</i>|<i>e</i>)</p>
+      <p class="eq"><i>p</i> = &Phi;(&kappa;<i>H</i><sup>&minus;</sup> + <i>b</i>)</p>
+      <p>Summarize concentration of the entire posterior;</p>
+      <p>do not select mass for the chosen sign.</p>
+      <p>Free: &kappa;, <i>b</i>.</p>
+    </div>
+    <div class="small" style="margin-top:4px;"><b>Both use the same joint hypothesis grid.</b><br>
+    Flat priors over sign and 40 magnitude bins; empirical prior over contrast. The likelihood uses the parameters from the shared accuracy fit.</div>
+  </div>
+
+  <div class="col">
+    <div class="colhdr orange">
+      <h4>Use reconstructed chosen/unchosen pools</h4>
+      <p>(|<i>e</i>|, <i>g<sub>c</sub></i>) &rarr; <i>E</i><sup>+</sup>, <i>E</i><sup>&minus;</sup> &rarr; <i>p</i></p>
+      <span class="routetag">&#8596; Route 3, Fig. S4</span>
+    </div>
+    <div class="downarrow">&#8595;</div>
+    <div class="mbox orange">
+      <h4>7&nbsp; PositiveEvidence/Gain &middot; 3 identified parameters</h4>
+      <p class="eq">(|<i>e</i>|, <i>g<sub>c</sub></i>) &rarr; <i>E</i><sup>+</sup>, <i>E</i><sup>&minus;</sup> &rarr; <i>p</i></p>
+      <p class="eq"><i>E</i><sup>+</sup> = (<i>g<sub>c</sub></i>+|<i>e</i>|)/2, &nbsp; <i>E</i><sup>&minus;</sup> = (<i>g<sub>c</sub></i>&minus;|<i>e</i>|)/2</p>
+      <p class="eq"><i>p</i> = &Phi;(&kappa;[<i>E</i><sup>+</sup> &minus; &alpha;<i>E</i><sup>&minus;</sup>] + <i>b</i>) = &Phi;(<i>Q</i>|<i>e</i>| + <i>B<sub>c</sub></i>)</p>
+      <p>Pools are reconstructed, not measured.</p>
+      <p>Nominal: &kappa;, <i>b</i>, <i>g</i><sub>lo</sub>, &alpha; (fix <i>g</i><sub>hi</sub>=1); &alpha;=tanh(&theta;<sub>&alpha;</sub>)&isin;(&minus;1,1).</p>
+      <p><b>Only <i>Q</i>, <i>B</i><sub>hi</sub>, <i>B</i><sub>lo</sub> are identified (box below) &mdash; these 3 are what is fit and reported.</b></p>
+    </div>
+
+    <div class="flagbox">
+      <div class="headline">Only 3 combinations are identifiable:</div>
+      <div class="eq"><i>p</i> = &Phi;(<i>Q</i>|<i>e</i>| + <i>B<sub>c</sub></i>)</div>
+      <div class="eq"><i>Q</i> = &kappa;(1+&alpha;)/2</div>
+      <div class="eq"><i>B<sub>c</sub></i> = <i>b</i> + &kappa;(1&minus;&alpha;)<i>g<sub>c</sub></i>/2</div>
+      <p style="font-size:14px; margin-top:8px;">&kappa;, <i>b</i>, <i>g</i><sub>lo</sub>, &alpha; enter the likelihood only through this product &mdash; any &alpha; has an exactly compensating <i>g</i><sub>lo</sub> that reproduces the identical fit.</p>
+      <div class="conclusion">The data do not uniquely identify &alpha; (or <i>g</i><sub>lo</sub>) separately.</div>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <h5>Reading the figure</h5>
+  <p>&Phi;: standard normal CDF. &kappa;: confidence sensitivity; <i>b</i>: confidence offset. &sigma;<sub>pool</sub> = &radic;((&sigma;<sub>hi</sub>&sup2;+&sigma;<sub>lo</sub>&sup2;)/2).</p>
+  <p>Counts refer to confidence parameters beyond the shared accuracy fit. Every model here has at least one free confidence parameter (bare zero-parameter ideal-observer versions of Bayesian(|<i>e</i>|) and FullBayes(<i>e</i>) were considered but are not part of the reported model set).</p>
+  <p>Source: manuscript Methods (free-parameter models of real confidence reports) and Supplemental Information (identifiability discussion).</p>
+</footer>
+
+</body>
+</html>

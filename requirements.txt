@@ -1,0 +1,30 @@
+# Python dependencies for code_for_sharing/
+#
+# Installed and verified against these versions (Python 3.10) for every
+# downstream (data-included) script:
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+matplotlib==3.10.9
+scikit-learn==1.7.2
+statsmodels==0.15.0
+h5py==3.16.0
+
+# Only needed for scripts that still import mat73 as a leftover dependency
+# of their pre-v2 raw-data-reading code path (shared/neuron_pref.mat is
+# read via scipy.io, not mat73). As of this version, cache_sessions.py,
+# run_cross_decoder.py, run_peb_vs_me.py, run_peb_vs_me_accuracy.py,
+# build_real_behavior.py, and run_controls.py have all been confirmed to
+# run end-to-end using ONLY the included data/ folder (no raw
+# masterNeuralStruct_FULL.mat / masterNeuralStruct_TEST.mat /
+# masterBehaviorStruct.mat needed) and to reproduce every shipped
+# CSV/NPZ/MAT output in this package byte-for-byte (data arrays identical;
+# .mat files may differ only in their embedded save timestamp). The one
+# genuine exception is compute_neuron_pref.m (MATLAB, not Python), which
+# does need the raw spike-time data and is included only for provenance.
+mat73
+
+# figS3_S4_model_schematics/render_html.js (Node.js, not Python) additionally
+# requires the "playwright" npm package (with `npx playwright install
+# chromium`) to regenerate PDFs from the HTML sources -- not a Python
+# dependency, listed here for completeness.

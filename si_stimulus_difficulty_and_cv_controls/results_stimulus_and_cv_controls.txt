@@ -1,0 +1,67 @@
+N sessions (basic filters): 29
+N (session x choice) pairs (pool-fit inclusion criteria): 36
+
+=== 1. BASELINE REPLICATION (sanity check vs published a,b) ===
+  n_pairs: 36
+  a_conf_mean: 1.037548541835906
+  a_conf_median: 0.8849470743587602
+  b_conf_mean: -0.22475384048572444
+  b_conf_median: -0.06051045427843989
+  a_acc_mean: 1.2983808329820208
+  a_acc_median: 0.9499219336679419
+  b_acc_mean: -0.7285923136178726
+  b_acc_median: -0.5168618165002841
+  b_gap_mean: 0.5038384731321482
+  b_gap_p: 0.0011994246451649815
+  b_conf_vs0_p: 0.18664936278946698
+
+=== 2. STIMULUS-DIFFICULTY CONTROL: residualized E+/E- ===
+  n_pairs: 36
+  b_gap_mean: 0.5419079131737862
+  b_gap_median: 0.44081807631322195
+  b_gap_p: 0.0005099171248730272
+  n_wins: 25
+  b_conf_mean: -0.04721222826409515
+  b_acc_mean: -0.5891201414378815
+  b_conf_vs0_p: 0.5393326855264604
+
+=== 3. STIMULUS-DIFFICULTY CONTROL: orientation x contrast matched cells ===
+  n_cells: 119
+  ori_bin_edges: [-1e-06, 2.0, 5.075, 29.000001000000005]
+  n_pairs_contributing: 36
+  b_gap_mean: 0.8836128755397208
+  b_gap_median: 0.6146401456514609
+  b_gap_p: 3.4067325612097647e-07
+  n_wins: 79
+
+=== 4. CROSS-VALIDATED POOL-WEIGHTING COMPARISON (session-grouped 5-fold) ===
+  n_sessions_held_out: 18
+  n_groups: 18
+  ll_discount_mean: -0.6847935965999337
+  ll_symmetric_mean: -0.6897925630001361
+  ll_free_mean: -0.685109015779137
+  free_beats_discount_nsessions: 10
+  discount_beats_symmetric_nsessions: 12
+  discount_vs_symmetric_p: 0.0897674560546875
+  free_vs_discount_p: 0.44229888916015625
+
+Per-fold CV table:
+ fold  session  n_test  ll_discount  ll_symmetric   ll_free
+    0        0     702    -0.684221     -0.675819 -0.681417
+    1        2     953    -0.691008     -0.697768 -0.691283
+    2        4     958    -0.682616     -0.689277 -0.683023
+    3        6    1581    -0.637690     -0.654496 -0.636123
+    4        8    1393    -0.673485     -0.688293 -0.674801
+    5       11    1273    -0.690132     -0.698014 -0.690834
+    6       12    1325    -0.668174     -0.684436 -0.669849
+    7       13    1611    -0.703589     -0.714816 -0.707747
+    8       14    1326    -0.682800     -0.691651 -0.684144
+    9       15    1197    -0.683974     -0.682934 -0.683188
+   10       16    1257    -0.698930     -0.692391 -0.698209
+   11       17    1019    -0.708737     -0.688258 -0.706404
+   12       18     753    -0.652711     -0.660965 -0.650824
+   13       19    1276    -0.691495     -0.688486 -0.690706
+   14       20    1370    -0.671648     -0.671968 -0.669890
+   15       21    1365    -0.695323     -0.691798 -0.693523
+   16       23    1122    -0.680206     -0.681701 -0.678722
+   17       26    1768    -0.717363     -0.732265 -0.723339

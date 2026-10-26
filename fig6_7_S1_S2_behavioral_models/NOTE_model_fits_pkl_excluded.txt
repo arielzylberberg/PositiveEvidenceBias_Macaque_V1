@@ -1,0 +1,22 @@
+model_fits.pkl (18 MB) was excluded from this particular delivered copy of
+the package only to stay under a chat file-size limit — it is not needed
+to reproduce any figure or reported number in the manuscript:
+
+  - Fig. 6's AIC/BIC numbers come from recompute_aic_bic.py, which refits
+    both animals itself (~2-2.5 min) and does NOT read model_fits.pkl.
+  - Fig. 7 and Figs. S1/S2 read model_comparison_aic_bic_corrected.csv /
+    the refit objects from recompute_aic_bic.py, not this file.
+  - model_fits.pkl is only used as the real-data parameter source for
+    model_recovery.py's synthetic-data model-recovery validation
+    (the confusion-matrix numbers quoted in Methods).
+
+If you want to run model_recovery.py, just regenerate this file first:
+
+    python3 fit_free_param_models.py
+
+(~2-2.5 min; writes model_fits.pkl and model_comparison_aic_bic.csv). This
+was already how the README described this file's role before this
+particular delivery -- nothing about the file's purpose changed, it's
+simply not bundled with this specific download.
+
+Delete this note once you've regenerated or no longer need it.

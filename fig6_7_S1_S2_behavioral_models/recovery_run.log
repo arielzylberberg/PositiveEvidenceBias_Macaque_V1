@@ -1,0 +1,309 @@
+=== Starting Ziggy Tue Oct  6 22:53:33 UTC 2026 ===
+Resuming: 42 (gen_model, replicate) pairs already done in /tmp/claude-0/-home-claude/b4d5361e-df4a-59c6-b001-5a8876f39df7/scratchpad/code_for_sharing2/fig6_7_S1_S2_behavioral_models/model_recovery_Ziggy.csv
+[43/140] gen=ContrastBlind          rep=  3 -> AIC winner=ContrastBlind          BIC winner=ContrastBlind          (72.7s this task, ~117.6 min remaining)
+[44/140] gen=ContrastBlind          rep=  2 -> AIC winner=ContrastBlind          BIC winner=ContrastBlind          (76.6s this task, ~61.3 min remaining)
+[45/140] gen=ContrastBlind          rep=  4 -> AIC winner=ContrastBlind          BIC winner=ContrastBlind          (129.2s this task, ~106.6 min remaining)
+[46/140] gen=ContrastBlind          rep=  5 -> AIC winner=PositiveEvidence/Gain  BIC winner=ContrastBlind          (127.5s this task, ~80.0 min remaining)
+[47/140] gen=ContrastBlind          rep=  7 -> AIC winner=ContrastBlind          BIC winner=ContrastBlind          (80.7s this task, ~88.3 min remaining)
+[48/140] gen=ContrastBlind          rep=  6 -> AIC winner=PositiveEvidence/Gain  BIC winner=ContrastBlind          (84.3s this task, ~73.1 min remaining)
+[49/140] gen=ContrastBlind          rep=  8 -> AIC winner=PositiveEvidence/Gain  BIC winner=ContrastBlind          (68.3s this task, ~76.5 min remaining)
+[50/140] gen=ContrastBlind          rep=  9 -> AIC winner=ContrastBlind          BIC winner=ContrastBlind          (68.9s this task, ~66.6 min remaining)
+[51/140] gen=ContrastBlind          rep= 10 -> AIC winner=PositiveEvidence/Gain  BIC winner=ContrastBlind          (69.3s this task, ~69.6 min remaining)
+[52/140] gen=ContrastBlind          rep= 11 -> AIC winner=PositiveEvidence/Gain  BIC winner=ContrastBlind          (68.6s this task, ~62.1 min remaining)
+[53/140] gen=ContrastBlind          rep= 12 -> AIC winner=ContrastBlind          BIC winner=ContrastBlind          (67.4s this task, ~64.6 min remaining)
+[54/140] gen=ContrastBlind          rep= 13 -> AIC winner=ContrastBlind          BIC winner=ContrastBlind          (69.6s this task, ~58.9 min remaining)
+[55/140] gen=ContrastBlind          rep= 14 -> AIC winner=ContrastBlind          BIC winner=ContrastBlind          (69.0s this task, ~60.9 min remaining)
+[56/140] gen=ContrastBlind          rep= 15 -> AIC winner=ContrastBlind          BIC winner=ContrastBlind          (69.0s this task, ~56.2 min remaining)
+[57/140] gen=ContrastBlind          rep= 16 -> AIC winner=ContrastBlind          BIC winner=ContrastBlind          (71.2s this task, ~58.1 min remaining)
+[58/140] gen=ContrastBlind          rep= 17 -> AIC winner=ContrastBlind          BIC winner=ContrastBlind          (68.9s this task, ~53.9 min remaining)
+[59/140] gen=ContrastBlind          rep= 19 -> AIC winner=PositiveEvidence/Gain  BIC winner=ContrastBlind          (72.9s this task, ~55.9 min remaining)
+[60/140] gen=ContrastBlind          rep= 18 -> AIC winner=ContrastBlind          BIC winner=ContrastBlind          (74.2s this task, ~52.2 min remaining)
+[61/140] gen=Entropy(e)             rep=  0 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (44.8s this task, ~51.9 min remaining)
+[62/140] gen=Entropy(e)             rep=  1 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (44.9s this task, ~48.7 min remaining)
+[63/140] gen=Entropy(e)             rep=  2 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (47.2s this task, ~48.7 min remaining)
+[64/140] gen=Entropy(e)             rep=  3 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (48.4s this task, ~45.9 min remaining)
+[65/140] gen=Entropy(e)             rep=  4 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (43.9s this task, ~45.7 min remaining)
+[66/140] gen=Entropy(e)             rep=  5 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (44.8s this task, ~43.3 min remaining)
+[67/140] gen=Entropy(e)             rep=  6 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (43.4s this task, ~43.0 min remaining)
+[68/140] gen=Entropy(e)             rep=  7 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (43.1s this task, ~40.9 min remaining)
+[69/140] gen=Entropy(e)             rep=  8 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (45.0s this task, ~40.7 min remaining)
+[70/140] gen=Entropy(e)             rep=  9 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (44.7s this task, ~38.8 min remaining)
+[71/140] gen=Entropy(e)             rep= 11 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (42.1s this task, ~38.6 min remaining)
+[72/140] gen=Entropy(e)             rep= 10 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (44.9s this task, ~36.8 min remaining)
+[73/140] gen=Entropy(e)             rep= 12 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (44.6s this task, ~36.6 min remaining)
+[74/140] gen=Entropy(e)             rep= 13 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (44.1s this task, ~35.0 min remaining)
+[75/140] gen=Entropy(e)             rep= 14 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (42.0s this task, ~34.8 min remaining)
+[76/140] gen=Entropy(e)             rep= 15 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (42.7s this task, ~33.3 min remaining)
+[77/140] gen=Entropy(e)             rep= 17 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (42.5s this task, ~33.1 min remaining)
+[78/140] gen=Entropy(e)             rep= 16 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (44.5s this task, ~31.7 min remaining)
+[79/140] gen=Entropy(e)             rep= 19 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (42.6s this task, ~31.5 min remaining)
+[80/140] gen=Entropy(e)             rep= 18 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (43.8s this task, ~30.2 min remaining)
+[81/140] gen=CASANDRE               rep=  0 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (43.7s this task, ~30.0 min remaining)
+[82/140] gen=CASANDRE               rep=  1 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (44.1s this task, ~28.8 min remaining)
+[83/140] gen=CASANDRE               rep=  2 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (42.6s this task, ~28.6 min remaining)
+[84/140] gen=CASANDRE               rep=  3 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (44.1s this task, ~27.4 min remaining)
+[85/140] gen=CASANDRE               rep=  4 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (42.5s this task, ~27.2 min remaining)
+[86/140] gen=CASANDRE               rep=  5 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (45.4s this task, ~26.2 min remaining)
+=== Starting Ziggy Tue Oct  6 23:54:22 UTC 2026 ===
+Resuming: 86 (gen_model, replicate) pairs already done in /tmp/claude-0/-home-claude/b4d5361e-df4a-59c6-b001-5a8876f39df7/scratchpad/code_for_sharing2/fig6_7_S1_S2_behavioral_models/model_recovery_Ziggy.csv
+[87/140] gen=CASANDRE               rep=  7 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (139.8s this task, ~123.5 min remaining)
+[88/140] gen=CASANDRE               rep=  6 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (142.6s this task, ~61.8 min remaining)
+[89/140] gen=CASANDRE               rep=  9 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (125.3s this task, ~75.9 min remaining)
+[90/140] gen=CASANDRE               rep=  8 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (128.1s this task, ~55.8 min remaining)
+Resuming: 90 (gen_model, replicate) pairs already done in /tmp/claude-0/-home-claude/b4d5361e-df4a-59c6-b001-5a8876f39df7/scratchpad/code_for_sharing2/fig6_7_S1_S2_behavioral_models/model_recovery_Ziggy.csv
+[91/140] gen=CASANDRE               rep= 10 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (65.5s this task, ~53.5 min remaining)
+[92/140] gen=CASANDRE               rep= 11 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (66.1s this task, ~26.5 min remaining)
+[93/140] gen=CASANDRE               rep= 12 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (65.6s this task, ~34.2 min remaining)
+[94/140] gen=CASANDRE               rep= 13 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (65.4s this task, ~25.2 min remaining)
+[95/140] gen=CASANDRE               rep= 14 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (69.7s this task, ~30.1 min remaining)
+[96/140] gen=CASANDRE               rep= 15 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (71.3s this task, ~24.8 min remaining)
+[97/140] gen=CASANDRE               rep= 16 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (70.7s this task, ~27.8 min remaining)
+[98/140] gen=CASANDRE               rep= 17 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (69.0s this task, ~23.8 min remaining)
+[99/140] gen=CASANDRE               rep= 18 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (69.3s this task, ~25.9 min remaining)
+[100/140] gen=CASANDRE               rep= 19 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (69.8s this task, ~22.8 min remaining)
+[101/140] gen=FullBayes(crit)        rep=  1 -> AIC winner=FullBayes(crit)        BIC winner=FullBayes(crit)        (39.5s this task, ~22.5 min remaining)
+[102/140] gen=FullBayes(crit)        rep=  0 -> AIC winner=FullBayes(crit)        BIC winner=FullBayes(crit)        (44.7s this task, ~20.3 min remaining)
+[103/140] gen=FullBayes(crit)        rep=  2 -> AIC winner=FullBayes(crit)        BIC winner=FullBayes(crit)        (44.9s this task, ~20.2 min remaining)
+[104/140] gen=FullBayes(crit)        rep=  3 -> AIC winner=FullBayes(crit)        BIC winner=FullBayes(crit)        (43.4s this task, ~18.4 min remaining)
+[105/140] gen=FullBayes(crit)        rep=  5 -> AIC winner=PositiveEvidence/Gain  BIC winner=FullBayes(crit)        (39.5s this task, ~18.2 min remaining)
+[106/140] gen=FullBayes(crit)        rep=  4 -> AIC winner=FullBayes(crit)        BIC winner=FullBayes(crit)        (44.2s this task, ~16.7 min remaining)
+[107/140] gen=FullBayes(crit)        rep=  6 -> AIC winner=PositiveEvidence/Gain  BIC winner=FullBayes(crit)        (44.9s this task, ~16.6 min remaining)
+[108/140] gen=FullBayes(crit)        rep=  7 -> AIC winner=PositiveEvidence/Gain  BIC winner=FullBayes(crit)        (43.2s this task, ~15.2 min remaining)
+[109/140] gen=FullBayes(crit)        rep=  9 -> AIC winner=FullBayes(crit)        BIC winner=FullBayes(crit)        (44.0s this task, ~15.2 min remaining)
+[110/140] gen=FullBayes(crit)        rep=  8 -> AIC winner=ContrastBlind          BIC winner=FullBayes(crit)        (45.9s this task, ~14.0 min remaining)
+Resuming: 110 (gen_model, replicate) pairs already done in /tmp/claude-0/-home-claude/b4d5361e-df4a-59c6-b001-5a8876f39df7/scratchpad/code_for_sharing2/fig6_7_S1_S2_behavioral_models/model_recovery_Ziggy.csv
+[111/140] gen=FullBayes(crit)        rep= 10 -> AIC winner=ContrastBlind          BIC winner=FullBayes(crit)        (38.2s this task, ~18.5 min remaining)
+[112/140] gen=FullBayes(crit)        rep= 11 -> AIC winner=PositiveEvidence/Gain  BIC winner=FullBayes(crit)        (39.7s this task, ~9.3 min remaining)
+[113/140] gen=FullBayes(crit)        rep= 12 -> AIC winner=PositiveEvidence/Gain  BIC winner=FullBayes(crit)        (44.3s this task, ~12.4 min remaining)
+[114/140] gen=FullBayes(crit)        rep= 13 -> AIC winner=FullBayes(crit)        BIC winner=FullBayes(crit)        (43.0s this task, ~9.0 min remaining)
+[115/140] gen=FullBayes(crit)        rep= 14 -> AIC winner=PositiveEvidence/Gain  BIC winner=FullBayes(crit)        (45.7s this task, ~10.7 min remaining)
+[116/140] gen=FullBayes(crit)        rep= 15 -> AIC winner=FullBayes(crit)        BIC winner=FullBayes(crit)        (45.9s this task, ~8.6 min remaining)
+[117/140] gen=FullBayes(crit)        rep= 17 -> AIC winner=FullBayes(crit)        BIC winner=FullBayes(crit)        (40.5s this task, ~9.3 min remaining)
+[118/140] gen=FullBayes(crit)        rep= 16 -> AIC winner=FullBayes(crit)        BIC winner=FullBayes(crit)        (44.0s this task, ~7.9 min remaining)
+[119/140] gen=FullBayes(crit)        rep= 18 -> AIC winner=FullBayes(crit)        BIC winner=FullBayes(crit)        (42.7s this task, ~8.2 min remaining)
+[120/140] gen=FullBayes(crit)        rep= 19 -> AIC winner=PositiveEvidence/Gain  BIC winner=FullBayes(crit)        (43.4s this task, ~7.2 min remaining)
+[121/140] gen=PositiveEvidence/Gain  rep=  0 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (44.7s this task, ~7.4 min remaining)
+[122/140] gen=PositiveEvidence/Gain  rep=  1 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (45.6s this task, ~6.5 min remaining)
+[123/140] gen=PositiveEvidence/Gain  rep=  2 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (44.2s this task, ~6.6 min remaining)
+[124/140] gen=PositiveEvidence/Gain  rep=  3 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (45.7s this task, ~5.8 min remaining)
+[125/140] gen=PositiveEvidence/Gain  rep=  4 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (44.2s this task, ~5.7 min remaining)
+[126/140] gen=PositiveEvidence/Gain  rep=  5 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (45.0s this task, ~5.1 min remaining)
+[127/140] gen=PositiveEvidence/Gain  rep=  6 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (45.7s this task, ~5.0 min remaining)
+[128/140] gen=PositiveEvidence/Gain  rep=  7 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (46.3s this task, ~4.4 min remaining)
+[129/140] gen=PositiveEvidence/Gain  rep=  8 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (45.8s this task, ~4.2 min remaining)
+[130/140] gen=PositiveEvidence/Gain  rep=  9 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (46.8s this task, ~3.7 min remaining)
+[131/140] gen=PositiveEvidence/Gain  rep= 10 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (45.8s this task, ~3.4 min remaining)
+[132/140] gen=PositiveEvidence/Gain  rep= 11 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (44.0s this task, ~3.0 min remaining)
+[133/140] gen=PositiveEvidence/Gain  rep= 12 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (40.7s this task, ~2.7 min remaining)
+[134/140] gen=PositiveEvidence/Gain  rep= 13 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (39.2s this task, ~2.2 min remaining)
+[135/140] gen=PositiveEvidence/Gain  rep= 14 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (38.6s this task, ~1.9 min remaining)
+[136/140] gen=PositiveEvidence/Gain  rep= 15 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (36.5s this task, ~1.4 min remaining)
+Resuming: 136 (gen_model, replicate) pairs already done in /tmp/claude-0/-home-claude/b4d5361e-df4a-59c6-b001-5a8876f39df7/scratchpad/code_for_sharing2/fig6_7_S1_S2_behavioral_models/model_recovery_Ziggy.csv
+[137/140] gen=PositiveEvidence/Gain  rep= 16 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (65.7s this task, ~3.3 min remaining)
+[138/140] gen=PositiveEvidence/Gain  rep= 17 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (66.5s this task, ~1.1 min remaining)
+[139/140] gen=PositiveEvidence/Gain  rep= 19 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (60.5s this task, ~0.7 min remaining)
+[140/140] gen=PositiveEvidence/Gain  rep= 18 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (61.3s this task, ~0.0 min remaining)
+
+Saved /tmp/claude-0/-home-claude/b4d5361e-df4a-59c6-b001-5a8876f39df7/scratchpad/code_for_sharing2/fig6_7_S1_S2_behavioral_models/model_recovery_Ziggy.csv (140 rows)
+
+=== AIC confusion matrix (rows=generating, cols=recovered) ===
+win_aic_display        Calibrated  ...  PositiveEvidence/Gain
+gen_display                        ...                       
+Calibrated                     14  ...                      0
+Bayesian(|e|)                   6  ...                      0
+ContrastBlind                   0  ...                      6
+Entropy(e)                      0  ...                      0
+CASANDRE                        0  ...                      0
+FullBayes(e)                    0  ...                      7
+PositiveEvidence/Gain           0  ...                     20
+
+[7 rows x 7 columns]
+
+=== BIC confusion matrix (rows=generating, cols=recovered) ===
+win_bic_display        Calibrated  ...  PositiveEvidence/Gain
+gen_display                        ...                       
+Calibrated                     20  ...                      0
+Bayesian(|e|)                   0  ...                      0
+ContrastBlind                   0  ...                      0
+Entropy(e)                      0  ...                      0
+CASANDRE                        0  ...                      0
+FullBayes(e)                    0  ...                      0
+PositiveEvidence/Gain           0  ...                     20
+
+[7 rows x 7 columns]
+[1/140] gen=Calibrated             rep=  1 -> AIC winner=Calibrated             BIC winner=Calibrated             (71.8s this task, ~166.4 min remaining)
+[2/140] gen=Calibrated             rep=  0 -> AIC winner=Calibrated             BIC winner=Calibrated             (73.9s this task, ~85.0 min remaining)
+[3/140] gen=Calibrated             rep=  2 -> AIC winner=CASANDRE               BIC winner=Calibrated             (72.7s this task, ~110.0 min remaining)
+[4/140] gen=Calibrated             rep=  3 -> AIC winner=Calibrated             BIC winner=Calibrated             (75.2s this task, ~84.5 min remaining)
+[5/140] gen=Calibrated             rep=  4 -> AIC winner=Calibrated             BIC winner=Calibrated             (73.0s this task, ~97.9 min remaining)
+[6/140] gen=Calibrated             rep=  5 -> AIC winner=Calibrated             BIC winner=Bayesian(crit)         (71.4s this task, ~82.1 min remaining)
+[7/140] gen=Calibrated             rep=  6 -> AIC winner=CASANDRE               BIC winner=Calibrated             (75.2s this task, ~92.7 min remaining)
+[8/140] gen=Calibrated             rep=  7 -> AIC winner=Calibrated             BIC winner=Bayesian(crit)         (74.8s this task, ~81.2 min remaining)
+[9/140] gen=Calibrated             rep=  8 -> AIC winner=Calibrated             BIC winner=Calibrated             (73.9s this task, ~88.9 min remaining)
+[10/140] gen=Calibrated             rep=  9 -> AIC winner=Calibrated             BIC winner=Calibrated             (74.2s this task, ~80.1 min remaining)
+[11/140] gen=Calibrated             rep= 10 -> AIC winner=Calibrated             BIC winner=Calibrated             (64.5s this task, ~84.3 min remaining)
+[12/140] gen=Calibrated             rep= 11 -> AIC winner=Calibrated             BIC winner=Calibrated             (64.4s this task, ~77.2 min remaining)
+Resuming: 12 (gen_model, replicate) pairs already done in /tmp/claude-0/-home-claude/b4d5361e-df4a-59c6-b001-5a8876f39df7/scratchpad/code_for_sharing2/fig6_7_S1_S2_behavioral_models/model_recovery_Friedrich.csv
+[13/140] gen=Calibrated             rep= 13 -> AIC winner=Calibrated             BIC winner=Calibrated             (68.7s this task, ~145.4 min remaining)
+[14/140] gen=Calibrated             rep= 12 -> AIC winner=Calibrated             BIC winner=Calibrated             (68.9s this task, ~72.3 min remaining)
+[15/140] gen=Calibrated             rep= 15 -> AIC winner=CASANDRE               BIC winner=Bayesian(crit)         (76.4s this task, ~100.9 min remaining)
+[16/140] gen=Calibrated             rep= 14 -> AIC winner=Calibrated             BIC winner=Bayesian(crit)         (76.8s this task, ~75.2 min remaining)
+[17/140] gen=Calibrated             rep= 16 -> AIC winner=Calibrated             BIC winner=Calibrated             (74.2s this task, ~90.0 min remaining)
+[18/140] gen=Calibrated             rep= 17 -> AIC winner=Calibrated             BIC winner=Calibrated             (76.0s this task, ~75.1 min remaining)
+[19/140] gen=Calibrated             rep= 18 -> AIC winner=Calibrated             BIC winner=Calibrated             (74.6s this task, ~84.7 min remaining)
+[20/140] gen=Calibrated             rep= 19 -> AIC winner=Calibrated             BIC winner=Calibrated             (76.0s this task, ~74.4 min remaining)
+[21/140] gen=Bayesian(crit)         rep=  0 -> AIC winner=Bayesian(crit)         BIC winner=Bayesian(crit)         (65.0s this task, ~79.1 min remaining)
+[22/140] gen=Bayesian(crit)         rep=  1 -> AIC winner=Bayesian(crit)         BIC winner=Bayesian(crit)         (64.4s this task, ~71.2 min remaining)
+[23/140] gen=Bayesian(crit)         rep=  2 -> AIC winner=Calibrated             BIC winner=Calibrated             (71.3s this task, ~76.3 min remaining)
+[24/140] gen=Bayesian(crit)         rep=  3 -> AIC winner=Calibrated             BIC winner=Bayesian(crit)         (73.4s this task, ~70.1 min remaining)
+[25/140] gen=Bayesian(crit)         rep=  4 -> AIC winner=Bayesian(crit)         BIC winner=Bayesian(crit)         (75.1s this task, ~74.5 min remaining)
+[26/140] gen=Bayesian(crit)         rep=  5 -> AIC winner=Bayesian(crit)         BIC winner=Bayesian(crit)         (74.0s this task, ~69.1 min remaining)
+[27/140] gen=Bayesian(crit)         rep=  6 -> AIC winner=Bayesian(crit)         BIC winner=Bayesian(crit)         (63.6s this task, ~71.5 min remaining)
+[28/140] gen=Bayesian(crit)         rep=  7 -> AIC winner=Bayesian(crit)         BIC winner=Bayesian(crit)         (67.6s this task, ~67.3 min remaining)
+Resuming: 28 (gen_model, replicate) pairs already done in /tmp/claude-0/-home-claude/b4d5361e-df4a-59c6-b001-5a8876f39df7/scratchpad/code_for_sharing2/fig6_7_S1_S2_behavioral_models/model_recovery_Friedrich.csv
+[29/140] gen=Bayesian(crit)         rep=  8 -> AIC winner=Bayesian(crit)         BIC winner=Bayesian(crit)         (74.4s this task, ~137.7 min remaining)
+[30/140] gen=Bayesian(crit)         rep=  9 -> AIC winner=Calibrated             BIC winner=Bayesian(crit)         (74.5s this task, ~68.4 min remaining)
+[31/140] gen=Bayesian(crit)         rep= 11 -> AIC winner=Bayesian(crit)         BIC winner=Bayesian(crit)         (73.5s this task, ~89.7 min remaining)
+[32/140] gen=Bayesian(crit)         rep= 10 -> AIC winner=Calibrated             BIC winner=Bayesian(crit)         (74.8s this task, ~67.1 min remaining)
+[33/140] gen=Bayesian(crit)         rep= 13 -> AIC winner=Bayesian(crit)         BIC winner=Bayesian(crit)         (72.9s this task, ~79.2 min remaining)
+[34/140] gen=Bayesian(crit)         rep= 12 -> AIC winner=Bayesian(crit)         BIC winner=Bayesian(crit)         (75.1s this task, ~65.7 min remaining)
+[35/140] gen=Bayesian(crit)         rep= 14 -> AIC winner=Calibrated             BIC winner=Bayesian(crit)         (75.0s this task, ~74.3 min remaining)
+[36/140] gen=Bayesian(crit)         rep= 15 -> AIC winner=Calibrated             BIC winner=Bayesian(crit)         (77.0s this task, ~65.0 min remaining)
+[37/140] gen=Bayesian(crit)         rep= 16 -> AIC winner=CASANDRE               BIC winner=Bayesian(crit)         (73.3s this task, ~70.6 min remaining)
+[38/140] gen=Bayesian(crit)         rep= 17 -> AIC winner=Bayesian(crit)         BIC winner=Bayesian(crit)         (77.1s this task, ~64.1 min remaining)
+[39/140] gen=Bayesian(crit)         rep= 18 -> AIC winner=Calibrated             BIC winner=Calibrated             (78.4s this task, ~68.7 min remaining)
+[40/140] gen=Bayesian(crit)         rep= 19 -> AIC winner=CASANDRE               BIC winner=Bayesian(crit)         (76.6s this task, ~63.0 min remaining)
+[41/140] gen=ContrastBlind          rep=  0 -> AIC winner=ContrastBlind          BIC winner=ContrastBlind          (72.5s this task, ~66.2 min remaining)
+[42/140] gen=ContrastBlind          rep=  1 -> AIC winner=ContrastBlind          BIC winner=ContrastBlind          (72.6s this task, ~61.4 min remaining)
+Resuming: 42 (gen_model, replicate) pairs already done in /tmp/claude-0/-home-claude/b4d5361e-df4a-59c6-b001-5a8876f39df7/scratchpad/code_for_sharing2/fig6_7_S1_S2_behavioral_models/model_recovery_Friedrich.csv
+[43/140] gen=ContrastBlind          rep=  3 -> AIC winner=PositiveEvidence/Gain  BIC winner=ContrastBlind          (70.0s this task, ~113.3 min remaining)
+[44/140] gen=ContrastBlind          rep=  2 -> AIC winner=ContrastBlind          BIC winner=ContrastBlind          (74.6s this task, ~59.7 min remaining)
+[45/140] gen=ContrastBlind          rep=  4 -> AIC winner=PositiveEvidence/Gain  BIC winner=ContrastBlind          (67.3s this task, ~72.5 min remaining)
+[46/140] gen=ContrastBlind          rep=  5 -> AIC winner=PositiveEvidence/Gain  BIC winner=ContrastBlind          (67.9s this task, ~55.8 min remaining)
+[47/140] gen=ContrastBlind          rep=  6 -> AIC winner=ContrastBlind          BIC winner=ContrastBlind          (71.4s this task, ~64.7 min remaining)
+[48/140] gen=ContrastBlind          rep=  7 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (73.1s this task, ~55.1 min remaining)
+[49/140] gen=ContrastBlind          rep=  8 -> AIC winner=ContrastBlind          BIC winner=ContrastBlind          (73.4s this task, ~61.1 min remaining)
+[50/140] gen=ContrastBlind          rep=  9 -> AIC winner=ContrastBlind          BIC winner=ContrastBlind          (73.5s this task, ~54.2 min remaining)
+[51/140] gen=ContrastBlind          rep= 10 -> AIC winner=ContrastBlind          BIC winner=ContrastBlind          (72.0s this task, ~58.4 min remaining)
+[52/140] gen=ContrastBlind          rep= 11 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (72.0s this task, ~53.0 min remaining)
+[53/140] gen=ContrastBlind          rep= 12 -> AIC winner=ContrastBlind          BIC winner=ContrastBlind          (63.9s this task, ~55.1 min remaining)
+[54/140] gen=ContrastBlind          rep= 13 -> AIC winner=PositiveEvidence/Gain  BIC winner=ContrastBlind          (62.9s this task, ~50.7 min remaining)
+[55/140] gen=ContrastBlind          rep= 14 -> AIC winner=PositiveEvidence/Gain  BIC winner=ContrastBlind          (64.1s this task, ~52.5 min remaining)
+[56/140] gen=ContrastBlind          rep= 15 -> AIC winner=ContrastBlind          BIC winner=ContrastBlind          (64.1s this task, ~48.8 min remaining)
+[57/140] gen=ContrastBlind          rep= 16 -> AIC winner=PositiveEvidence/Gain  BIC winner=ContrastBlind          (74.3s this task, ~51.3 min remaining)
+[58/140] gen=ContrastBlind          rep= 17 -> AIC winner=PositiveEvidence/Gain  BIC winner=ContrastBlind          (74.0s this task, ~48.0 min remaining)
+Resuming: 58 (gen_model, replicate) pairs already done in /tmp/claude-0/-home-claude/b4d5361e-df4a-59c6-b001-5a8876f39df7/scratchpad/code_for_sharing2/fig6_7_S1_S2_behavioral_models/model_recovery_Friedrich.csv
+[59/140] gen=ContrastBlind          rep= 19 -> AIC winner=ContrastBlind          BIC winner=ContrastBlind          (71.2s this task, ~96.2 min remaining)
+[60/140] gen=ContrastBlind          rep= 18 -> AIC winner=ContrastBlind          BIC winner=ContrastBlind          (73.7s this task, ~49.2 min remaining)
+[61/140] gen=Entropy(e)             rep=  0 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (48.6s this task, ~52.6 min remaining)
+[62/140] gen=Entropy(e)             rep=  1 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (47.6s this task, ~39.4 min remaining)
+[63/140] gen=Entropy(e)             rep=  2 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (45.3s this task, ~42.4 min remaining)
+[64/140] gen=Entropy(e)             rep=  3 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (47.2s this task, ~35.6 min remaining)
+[65/140] gen=Entropy(e)             rep=  4 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (40.7s this task, ~36.8 min remaining)
+[66/140] gen=Entropy(e)             rep=  5 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (42.0s this task, ~32.5 min remaining)
+[67/140] gen=Entropy(e)             rep=  6 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (40.3s this task, ~33.3 min remaining)
+[68/140] gen=Entropy(e)             rep=  7 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (43.1s this task, ~30.4 min remaining)
+[69/140] gen=Entropy(e)             rep=  8 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (47.4s this task, ~31.6 min remaining)
+[70/140] gen=Entropy(e)             rep=  9 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (45.5s this task, ~29.1 min remaining)
+[71/140] gen=Entropy(e)             rep= 10 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (44.4s this task, ~29.9 min remaining)
+[72/140] gen=Entropy(e)             rep= 11 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (44.6s this task, ~27.8 min remaining)
+[73/140] gen=Entropy(e)             rep= 12 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (40.7s this task, ~28.2 min remaining)
+[74/140] gen=Entropy(e)             rep= 13 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (41.5s this task, ~26.5 min remaining)
+[75/140] gen=Entropy(e)             rep= 14 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (39.9s this task, ~26.7 min remaining)
+[76/140] gen=Entropy(e)             rep= 15 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (40.1s this task, ~25.2 min remaining)
+[77/140] gen=Entropy(e)             rep= 16 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (44.8s this task, ~25.6 min remaining)
+[78/140] gen=Entropy(e)             rep= 17 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (46.2s this task, ~24.4 min remaining)
+[79/140] gen=Entropy(e)             rep= 18 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (44.4s this task, ~24.6 min remaining)
+[80/140] gen=Entropy(e)             rep= 19 -> AIC winner=Entropy(e)             BIC winner=Entropy(e)             (46.1s this task, ~23.5 min remaining)
+[81/140] gen=CASANDRE               rep=  0 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (50.4s this task, ~23.9 min remaining)
+[82/140] gen=CASANDRE               rep=  1 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (47.6s this task, ~22.8 min remaining)
+Resuming: 82 (gen_model, replicate) pairs already done in /tmp/claude-0/-home-claude/b4d5361e-df4a-59c6-b001-5a8876f39df7/scratchpad/code_for_sharing2/fig6_7_S1_S2_behavioral_models/model_recovery_Friedrich.csv
+[83/140] gen=CASANDRE               rep=  3 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (63.6s this task, ~60.5 min remaining)
+[84/140] gen=CASANDRE               rep=  2 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (64.9s this task, ~30.3 min remaining)
+[85/140] gen=CASANDRE               rep=  5 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (62.5s this task, ~38.9 min remaining)
+[86/140] gen=CASANDRE               rep=  4 -> AIC winner=Calibrated             BIC winner=Calibrated             (66.8s this task, ~29.4 min remaining)
+[87/140] gen=CASANDRE               rep=  6 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (66.2s this task, ~34.2 min remaining)
+[88/140] gen=CASANDRE               rep=  7 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (66.3s this task, ~28.4 min remaining)
+[89/140] gen=CASANDRE               rep=  8 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (63.9s this task, ~31.3 min remaining)
+[90/140] gen=CASANDRE               rep=  9 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (68.2s this task, ~27.6 min remaining)
+[91/140] gen=CASANDRE               rep= 10 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (69.4s this task, ~29.7 min remaining)
+[92/140] gen=CASANDRE               rep= 11 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (67.5s this task, ~26.6 min remaining)
+[93/140] gen=CASANDRE               rep= 12 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (72.0s this task, ~28.4 min remaining)
+[94/140] gen=CASANDRE               rep= 13 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (73.3s this task, ~25.9 min remaining)
+[95/140] gen=CASANDRE               rep= 14 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (75.6s this task, ~27.4 min remaining)
+[96/140] gen=CASANDRE               rep= 15 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (75.2s this task, ~25.2 min remaining)
+[97/140] gen=CASANDRE               rep= 16 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (69.0s this task, ~26.0 min remaining)
+[98/140] gen=CASANDRE               rep= 17 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (70.0s this task, ~24.1 min remaining)
+Resuming: 98 (gen_model, replicate) pairs already done in /tmp/claude-0/-home-claude/b4d5361e-df4a-59c6-b001-5a8876f39df7/scratchpad/code_for_sharing2/fig6_7_S1_S2_behavioral_models/model_recovery_Friedrich.csv
+[99/140] gen=CASANDRE               rep= 18 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (66.7s this task, ~45.6 min remaining)
+[100/140] gen=CASANDRE               rep= 19 -> AIC winner=CASANDRE               BIC winner=CASANDRE               (67.2s this task, ~22.4 min remaining)
+[101/140] gen=FullBayes(crit)        rep=  0 -> AIC winner=PositiveEvidence/Gain  BIC winner=ContrastBlind          (43.3s this task, ~23.8 min remaining)
+[102/140] gen=FullBayes(crit)        rep=  1 -> AIC winner=ContrastBlind          BIC winner=FullBayes(crit)        (44.1s this task, ~17.6 min remaining)
+[103/140] gen=FullBayes(crit)        rep=  2 -> AIC winner=FullBayes(crit)        BIC winner=FullBayes(crit)        (45.9s this task, ~19.2 min remaining)
+[104/140] gen=FullBayes(crit)        rep=  3 -> AIC winner=ContrastBlind          BIC winner=FullBayes(crit)        (47.2s this task, ~15.8 min remaining)
+[105/140] gen=FullBayes(crit)        rep=  4 -> AIC winner=PositiveEvidence/Gain  BIC winner=ContrastBlind          (44.4s this task, ~16.7 min remaining)
+[106/140] gen=FullBayes(crit)        rep=  5 -> AIC winner=FullBayes(crit)        BIC winner=FullBayes(crit)        (45.6s this task, ~14.5 min remaining)
+[107/140] gen=FullBayes(crit)        rep=  6 -> AIC winner=FullBayes(crit)        BIC winner=FullBayes(crit)        (45.1s this task, ~15.0 min remaining)
+[108/140] gen=FullBayes(crit)        rep=  7 -> AIC winner=FullBayes(crit)        BIC winner=FullBayes(crit)        (45.1s this task, ~13.3 min remaining)
+[109/140] gen=FullBayes(crit)        rep=  8 -> AIC winner=ContrastBlind          BIC winner=ContrastBlind          (45.6s this task, ~13.7 min remaining)
+[110/140] gen=FullBayes(crit)        rep=  9 -> AIC winner=FullBayes(crit)        BIC winner=FullBayes(crit)        (47.7s this task, ~12.4 min remaining)
+[111/140] gen=FullBayes(crit)        rep= 10 -> AIC winner=ContrastBlind          BIC winner=FullBayes(crit)        (45.2s this task, ~12.5 min remaining)
+[112/140] gen=FullBayes(crit)        rep= 11 -> AIC winner=PositiveEvidence/Gain  BIC winner=FullBayes(crit)        (45.5s this task, ~11.4 min remaining)
+[113/140] gen=FullBayes(crit)        rep= 12 -> AIC winner=PositiveEvidence/Gain  BIC winner=FullBayes(crit)        (46.3s this task, ~11.5 min remaining)
+[114/140] gen=FullBayes(crit)        rep= 13 -> AIC winner=PositiveEvidence/Gain  BIC winner=ContrastBlind          (45.0s this task, ~10.5 min remaining)
+[115/140] gen=FullBayes(crit)        rep= 14 -> AIC winner=FullBayes(crit)        BIC winner=FullBayes(crit)        (43.8s this task, ~10.4 min remaining)
+[116/140] gen=FullBayes(crit)        rep= 15 -> AIC winner=PositiveEvidence/Gain  BIC winner=ContrastBlind          (46.8s this task, ~9.6 min remaining)
+[117/140] gen=FullBayes(crit)        rep= 16 -> AIC winner=ContrastBlind          BIC winner=FullBayes(crit)        (43.4s this task, ~9.5 min remaining)
+[118/140] gen=FullBayes(crit)        rep= 17 -> AIC winner=ContrastBlind          BIC winner=ContrastBlind          (44.3s this task, ~8.8 min remaining)
+[119/140] gen=FullBayes(crit)        rep= 18 -> AIC winner=ContrastBlind          BIC winner=ContrastBlind          (44.2s this task, ~8.6 min remaining)
+[120/140] gen=FullBayes(crit)        rep= 19 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (44.1s this task, ~7.9 min remaining)
+[121/140] gen=PositiveEvidence/Gain  rep=  0 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (47.4s this task, ~7.7 min remaining)
+[122/140] gen=PositiveEvidence/Gain  rep=  1 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (46.4s this task, ~7.1 min remaining)
+Resuming: 122 (gen_model, replicate) pairs already done in /tmp/claude-0/-home-claude/b4d5361e-df4a-59c6-b001-5a8876f39df7/scratchpad/code_for_sharing2/fig6_7_S1_S2_behavioral_models/model_recovery_Friedrich.csv
+[123/140] gen=PositiveEvidence/Gain  rep=  3 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (72.7s this task, ~20.6 min remaining)
+[124/140] gen=PositiveEvidence/Gain  rep=  2 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (74.6s this task, ~10.0 min remaining)
+[125/140] gen=PositiveEvidence/Gain  rep=  5 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (69.6s this task, ~12.0 min remaining)
+[126/140] gen=PositiveEvidence/Gain  rep=  4 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (72.9s this task, ~8.5 min remaining)
+[127/140] gen=PositiveEvidence/Gain  rep=  6 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (73.5s this task, ~9.4 min remaining)
+[128/140] gen=PositiveEvidence/Gain  rep=  7 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (76.2s this task, ~7.4 min remaining)
+[129/140] gen=PositiveEvidence/Gain  rep=  8 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (75.1s this task, ~7.7 min remaining)
+[130/140] gen=PositiveEvidence/Gain  rep=  9 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (72.4s this task, ~6.1 min remaining)
+[131/140] gen=PositiveEvidence/Gain  rep= 10 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (73.9s this task, ~6.1 min remaining)
+[132/140] gen=PositiveEvidence/Gain  rep= 11 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (75.1s this task, ~4.9 min remaining)
+[133/140] gen=PositiveEvidence/Gain  rep= 12 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (75.8s this task, ~4.7 min remaining)
+[134/140] gen=PositiveEvidence/Gain  rep= 13 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (74.0s this task, ~3.7 min remaining)
+[135/140] gen=PositiveEvidence/Gain  rep= 14 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (72.9s this task, ~3.3 min remaining)
+[136/140] gen=PositiveEvidence/Gain  rep= 15 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (73.3s this task, ~2.5 min remaining)
+Resuming: 136 (gen_model, replicate) pairs already done in /tmp/claude-0/-home-claude/b4d5361e-df4a-59c6-b001-5a8876f39df7/scratchpad/code_for_sharing2/fig6_7_S1_S2_behavioral_models/model_recovery_Friedrich.csv
+[137/140] gen=PositiveEvidence/Gain  rep= 16 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (74.2s this task, ~3.7 min remaining)
+[138/140] gen=PositiveEvidence/Gain  rep= 17 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (75.4s this task, ~1.3 min remaining)
+[139/140] gen=PositiveEvidence/Gain  rep= 19 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (70.1s this task, ~0.8 min remaining)
+[140/140] gen=PositiveEvidence/Gain  rep= 18 -> AIC winner=PositiveEvidence/Gain  BIC winner=PositiveEvidence/Gain  (75.0s this task, ~0.0 min remaining)
+
+Saved /tmp/claude-0/-home-claude/b4d5361e-df4a-59c6-b001-5a8876f39df7/scratchpad/code_for_sharing2/fig6_7_S1_S2_behavioral_models/model_recovery_Friedrich.csv (140 rows)
+
+=== AIC confusion matrix (rows=generating, cols=recovered) ===
+win_aic_display        Calibrated  ...  PositiveEvidence/Gain
+gen_display                        ...                       
+Calibrated                     17  ...                      0
+Bayesian(|e|)                   7  ...                      0
+ContrastBlind                   0  ...                      9
+Entropy(e)                      0  ...                      0
+CASANDRE                        1  ...                      0
+FullBayes(e)                    0  ...                      7
+PositiveEvidence/Gain           0  ...                     20
+
+[7 rows x 7 columns]
+
+=== BIC confusion matrix (rows=generating, cols=recovered) ===
+win_bic_display        Calibrated  ...  PositiveEvidence/Gain
+gen_display                        ...                       
+Calibrated                     16  ...                      0
+Bayesian(|e|)                   2  ...                      0
+ContrastBlind                   0  ...                      2
+Entropy(e)                      0  ...                      0
+CASANDRE                        1  ...                      0
+FullBayes(e)                    0  ...                      1
+PositiveEvidence/Gain           0  ...                     20
+
+[7 rows x 7 columns]
